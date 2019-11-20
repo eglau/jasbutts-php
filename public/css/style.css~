@@ -1,0 +1,67 @@
+html, body, div.container, div.row, div.left-nav, div.right-nav {
+    height: 100%;
+}
+
+body {
+    background-color; #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 0;
+}
+
+.left-nav, .right-nav {
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 50px 10px 0;
+}
+
+.left-nav {
+    border-right: 1px solid #bbb;
+    text-align: center;
+}
+
+.left-nav ul {
+    list-style: none;
+}
+
+.left-nav li.dropdown ul {
+    margin: 0;
+}
+
+.left-nav li.down {
+    background-color: #eee;
+}
+
+.left-nav ul li {
+    margin: 0;
+}
+
+.left-nav ul li a {
+    display: block;
+    color: #222;
+    padding: 5px 0;
+}
+
+.left-nav ul li.dropdown ul li a:hover {
+    background-color: #ccc;
+}
+
+.left-nav ul li a:hover {
+    background-color: #eee;
+}
+
+.right-nav .gal-nav {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.right-nav .gal-nav img {
+    border-radius: 10px;
+}
+
+

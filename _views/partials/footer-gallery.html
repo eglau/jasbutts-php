@@ -1,0 +1,25 @@
+<script src="/public/js/jquery-2.2.0.min.js"></script>
+<script src="/public/js/jquery-ui.min.js"></script>
+<script src="/public/photoswipe/photoswipe.js"></script>
+<script src="/public/photoswipe/photoswipe-ui-default.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#accordion').accordion({active:false,collapsible:true});
+        $('li.dropdown').click(function() {
+            if ($(this).hasClass('down')) {
+                $(this).removeClass('down');
+            } else {
+                $(this).addClass('down');
+            }
+        });
+    });
+
+    function pswp(index) {
+        var pswpElem = document.querySelectorAll('.pswp')[0];
+        var items = {{{ pswp }}};
+        var opts = { index: index, history: false, bgOpacity: 0.8, captionEl: false, tapToClose: true };
+        var gallery = new PhotoSwipe(pswpElem, PhotoSwipeUI_Default, items, opts);
+        gallery.init();
+        return false;
+    }
+</script>

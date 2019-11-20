@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+}
+
+.container, .row, .left-nav, .right-nav {
+    min-height: 100%;
+}
+
+body {
+    background-color; #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 0;
+}
+
+.left-nav, .right-nav {
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 50px 10px 0;
+}
+
+.left-nav {
+    text-align: center;
+}
+
+.left-nav ul {
+    list-style: none;
+}
+
+.left-nav li.dropdown ul {
+    margin: 0;
+}
+
+.left-nav li.down {
+    background-color: #eee;
+}
+
+.left-nav ul li {
+    margin: 0;
+}
+
+.left-nav ul li a {
+    display: block;
+    color: #222;
+    padding: 5px 0;
+}
+
+.left-nav ul li.dropdown ul li a:hover {
+    background-color: #ccc;
+}
+
+.left-nav ul li a:hover {
+    background-color: #eee;
+}
+
+.right-nav .gal-nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.right-nav .gal-nav img {
+    border-radius: 10px;
+}
+
+#accordion {
+    margin-bottom: 0px;
+}
+
+div.tn, div.tn-wide {
+    margin: 5px;
+    display: inline-block;
+}
+
+div.tn img {
+    height: 128px;
+    width: 128px;
+}
+
+div.tn-wide img {
+    width: 230px;
+}
+
+div.gallery-wrapper {
+    text-align: center;
+    margin: 1em 0;
+}
+
+img.logo {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+div.clear {
+    clear: both;
+}

@@ -1,0 +1,14 @@
+<script src="/public/js/jquery-2.2.0.min.js"></script>
+<script src="/public/js/jquery-ui.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#accordion').accordion({active:false,collapsible:true});
+        $('li.dropdown').click(function() {
+            if ($(this).hasClass('down')) {
+                $(this).removeClass('down');
+            } else {
+                $(this).addClass('down');
+            }
+        });
+    });
+</script>
